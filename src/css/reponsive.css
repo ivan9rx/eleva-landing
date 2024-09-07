@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+
+    .card-responsive {
+        align-items: center; /* Garante que o conteúdo da coluna esteja centralizado horizontalmente */
+    }
+
+    ul {
+        padding-left: 0;
+        text-align: center; /* Centraliza o texto na lista */
+    }
+
+    .text-white {
+        text-align: center; /* Garante que o texto em outras colunas também esteja centralizado */
+    }
+}
