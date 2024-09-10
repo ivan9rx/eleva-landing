@@ -7,7 +7,7 @@ export default function Header() {
         <header className="flex items-center w-full h-32 border border-black bg-black">
             <div className="flex items-center w-full h-full mx-16 justify-between">
                 <div className='borde'>
-                    <Link to="/home" className="flex-shrink-0">
+                    <Link to="/" className="flex-shrink-0">
                         <img src={Logo} alt="Logo" className="h-8" />
                     </Link>
                 </div>
